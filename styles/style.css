@@ -1,4 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 .link{
   text-decoration: none; color: white;
 }
@@ -18,24 +32,92 @@ a{
 a:hover{
   text-decoration: underline; 
 }
+
 /* .link:visited{
   color:blueviolet;
 } */
 
 
-nav>ul{
+/* nav.ribbon>ul{
   display: flex;
-  background-color: rgb(54, 105, 201);
-  border-radius: 5px;
-  border: 13px solid rgb(54, 105, 201);
+  background: rgb(54, 105, 201)
+  height: 80px;
+  width: 100%;
+  /* border-radius: 5px; */
+  /* border: 13px solid rgb(54, 105, 201);
   padding: 10px 5px;
   box-shadow: 17px 15px 20px rgb(99, 133, 197);
-  margin-top: 0px;
-}
-
-nav li{
+  margin-top: 0px; }*/
+/* 
+nav.ribbon li{
   list-style: none;
   margin-right: 7%;
+} */
+
+nav{
+  background-color: rgb(54, 105, 201);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  font-family:fantasy;
+  line-height: 80px;
+  padding: 0 7%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right; /* dan idke soray disi sob */
+  margin-right: 20px;
+
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  overflow-x: scroll;
+}
+
+nav ul li a{
+  font-size: 16px;
+  text-transform:uppercase;
+}
+
+/* nav.directory>ul{
+  display: block;
+  margin-left:var(.intro)
+  margin-top: 150%;
+  border: 3px solid rgb(54, 105, 201)
+
+}
+
+nav.directory li{
+  list-style: none;
+
+  margin-top: 8%;
+  border-radius: 5px;
+  /* border: 3px solid rgb(54, 105, 201); */
+  /* margin-right: 7%; */
+  /* text-shadow: 10px 12px 10px rgb(54, 105, 201); */
+  /* text-decoration:underline;
+  text-align: center; */
+.jump{
+  border: 7px solid rgb(54, 105, 201);
+  background-color:rgb(54, 105, 201);
+  color: white;
+  border-radius: 5px;
+  margin-left: 45px;
+  height: 10px;
+  /* margin-bottom: 100px; */
+  padding: 4px 20%;
+  font-size:23px;
+  text-align: center;
+  box-shadow: 1px 5px 10px rgb(99, 133, 197);
 }
 
 /* .ribbon-texts{
@@ -73,10 +155,11 @@ nav li{
   border: 7px solid rgb(54, 105, 201);
   background-color:rgb(54, 105, 201);
   color: white;
+  display: flexbox;
   border-radius: 5px;
   margin-left: 2%;
   height: 10px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
   padding: 4px 5px;
   font-size:15px;
   box-shadow: 1px 5px 10px;
@@ -85,7 +168,7 @@ nav li{
 
 .authors{
   margin-left: 2%;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   
 }
 
@@ -94,7 +177,7 @@ p{
 }
 article{ 
   margin-left: 2%;
-  margin-right:25%;
+  margin-right:20%;
 
 }
 
@@ -119,7 +202,7 @@ hr{
 figcaption{
   margin:1%;
   margin-top: 3px;
-  margin-right: 55px;  /*right margin thik krte hbe jate image borabor thake always*/
+  margin-right: 50%;  /*right margin thik krte hbe jate image borabor thake always*/
   /* margin-left: 0px; */
   font-size: 14px;
   
@@ -131,7 +214,7 @@ figcaption{
   /* border: 1px solid white; */
   text-align: justify;
   margin-top: 0%;
-  display: block
+  padding-right: 0px;
 }
 
 figure{
@@ -145,3 +228,4 @@ figure{
 footer{
   text-align: right;
 }
+
