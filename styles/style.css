@@ -22,9 +22,10 @@ html, body{
 }
 
 .link:hover{
-  text-decoration: none; 
+  text-decoration: underline; 
   color: white;
-  background-color: rgb(169, 55, 55);
+
+  /* background-color: rgb(60, 127, 252); */
   overflow-x: auto;
 }
 /* .link:hover{
@@ -70,7 +71,7 @@ nav{
     background-color: rgb(54, 105, 201);
     height: 80%;
     width: 100%;
-    overflow-x:auto;
+    /* overflow-x:auto; */
   }
 
 .icon{
@@ -97,7 +98,6 @@ nav ul{
 }
 
 nav li{
-
   line-height: 80px;
   margin: 0 10px;
   
@@ -110,11 +110,17 @@ nav li a{
 
 nav li .dropdown{
   display: none; 
+  position: absolute;
+
   /* display: block; */
 }
 
-nav li:hover .dropdown{
-  display: block;
+nav li:hover .dropdown{ /*fly out menu ta*/
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10PX;
+  background-color: rgb(54, 105, 201)
 }
 
 
