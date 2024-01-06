@@ -80,7 +80,6 @@ nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-  overflow-x: scroll;
 }
 
 nav ul li a{
@@ -150,6 +149,12 @@ nav.directory li{
 
 }
 
+.authors{
+  margin-left: 2%;
+  /* margin-bottom: 1px; */
+  text-wrap: inline;
+  
+}
 
 .inspiration{
   border: 7px solid rgb(54, 105, 201);
@@ -166,11 +171,6 @@ nav.directory li{
 
 }
 
-.authors{
-  margin-left: 2%;
-  margin-bottom: 100px;
-  
-}
 
 p{
   margin-right: 50px;
