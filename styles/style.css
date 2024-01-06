@@ -138,7 +138,7 @@ nav li:hover .dropdown{ /*fly out menu ta*/
   margin-top: 10%;
   /* border-radius: 1px;
   border: 3px solid rgb(54, 105, 201);  */
-  text-shadow: 10px 10px 10px rgb(54, 105, 201); 
+  text-shadow: 10px 10px 12px rgb(54, 105, 201); 
   text-transform: capitalize;
   text-decoration: solid;
   text-align: center; 
