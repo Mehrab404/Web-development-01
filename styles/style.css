@@ -123,7 +123,6 @@ nav li:hover .dropdown{ /*fly out menu ta*/
   background-color: rgb(54, 105, 201)
 }
 
-
 .directory>ul{ /* for the whole jump to BOX*/
   display:block;
   margin-right: 5%;
@@ -139,12 +138,13 @@ nav li:hover .dropdown{ /*fly out menu ta*/
   margin-top: 10%;
   /* border-radius: 1px;
   border: 3px solid rgb(54, 105, 201);  */
-  text-shadow: 10px 12px 10px rgb(54, 105, 201); 
+  text-shadow: 10px 10px 10px rgb(54, 105, 201); 
   text-transform: capitalize;
   text-decoration: solid;
   text-align: center; 
   font-size: 120%;
   font-weight: 600;
+
 } 
  .jump{
   border: 7px solid rgb(54, 105, 201);
@@ -170,10 +170,18 @@ nav li:hover .dropdown{ /*fly out menu ta*/
   margin-left: 1.5%;
 } */
 
+
+/* .greetings{
+  margin-left: 30%;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  border: 10px;
+} */
 .tittle{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 35px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 2%;
   margin-bottom: 1px;
 }
