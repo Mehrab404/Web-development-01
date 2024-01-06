@@ -1,0 +1,147 @@
+
+.link{
+  text-decoration: none; color: white;
+}
+/* .link:hover{
+  text-decoration: underline;
+} */
+
+
+a {
+  color: white;
+}
+
+a{
+  text-decoration:solid;color: rgb(54, 105, 201);
+}
+
+a:hover{
+  text-decoration: underline; 
+}
+/* .link:visited{
+  color:blueviolet;
+} */
+
+
+nav>ul{
+  display: flex;
+  background-color: rgb(54, 105, 201);
+  border-radius: 5px;
+  border: 13px solid rgb(54, 105, 201);
+  padding: 10px 5px;
+  box-shadow: 17px 15px 20px rgb(99, 133, 197);
+  margin-top: 0px;
+}
+
+nav li{
+  list-style: none;
+  margin-right: 7%;
+}
+
+/* .ribbon-texts{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} */
+
+/* .heading{
+  font-family: Arial, Helvetica, sans-serif; font-weight: lighter;
+  margin-top: 70px;
+  margin-left: 1.5%;
+} */
+
+.tittle{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-bottom: 1px;
+}
+
+.subtittle{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-weight: lighter; */
+  font-weight: 150;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-bottom: 22px;
+
+}
+
+
+.inspiration{
+  border: 7px solid rgb(54, 105, 201);
+  background-color:rgb(54, 105, 201);
+  color: white;
+  border-radius: 5px;
+  margin-left: 2%;
+  height: 10px;
+  /* margin-bottom: 100px; */
+  padding: 4px 5px;
+  font-size:15px;
+  box-shadow: 1px 5px 10px;
+
+}
+
+.authors{
+  margin-left: 2%;
+  margin-bottom: 10px;
+  
+}
+
+p{
+  margin-right: 50px;
+}
+article{ 
+  margin-left: 2%;
+  margin-right:25%;
+
+}
+
+hr{
+  color: rgb(54, 105, 201);
+  margin-top: 2%;
+}
+.txt-box{
+  border: 8px solid rgb(54, 105, 201);
+  background-color:rgb(54, 105, 201);
+  color: white;
+  border-radius: 3px;
+  margin-left: 22%;
+  width: 50%;
+  margin-bottom: 5px;
+  display:block;
+  text-align: center;
+  padding: 4px 5px;
+  font-size:23px;
+
+}
+figcaption{
+  margin:1%;
+  margin-top: 3px;
+  margin-right: 55px;  /*right margin thik krte hbe jate image borabor thake always*/
+  /* margin-left: 0px; */
+  font-size: 14px;
+  
+}
+
+.intro{
+  margin: 2%;
+  /* margin-right: 50%; */
+  /* border: 1px solid white; */
+  text-align: justify;
+  margin-top: 0%;
+  display: block
+}
+
+figure{
+  margin-left: 1.8%;
+  margin-top: 40px;
+  /* width: 600px;
+  height: 600px; */
+}
+
+
+footer{
+  text-align: right;
+}
