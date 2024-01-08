@@ -132,7 +132,11 @@ nav li:hover .dropdown{ /*fly out menu ta*/
   float: right; 
   
 }
-
+main{
+  align-items: center;
+  margin: 0 auto;
+  
+}
 .directory li{ /* for texts below jump to*/
   list-style: none;
   margin-top: 10%;
